@@ -32,7 +32,7 @@ _____________________________________________________
 |___________________________________________________|
 
 """)
-time.sleep(0.69)
+time.sleep(1)
 os.system('clear')
 print(Fore.YELLOW + """
 
@@ -63,11 +63,11 @@ print(Fore.GREEN + """
 
 """)
 os.system('clear')
-time.sleep(0.10)
-print(Fore.PURPLE + "Starting Mining Process please be patient!")
+time.sleep(1)
+print(Fore.BLUE + "Starting Mining Process please be patient!")
 time.sleep(4.20)
 os.system('clear')
-print(Fore.PURPLE + "MINING PROCESS STARTED")
+print(Fore.BLUE + "MINING PROCESS STARTED")
 os.system('clear')
 VALID_PAIR = Fore.GREEN + "Balance: {balance} | [✅] FOUND! {wallet} | Priv: {priv}"
 INVALID_PAIR = Fore.RED + "Balance: {balance} | [X] Trying! {wallet} | Priv: {priv}"
