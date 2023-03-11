@@ -22,14 +22,19 @@ apt upgrade**
 ```git clone https://github.com/nobody337/ace-free```
 
 
+3. cd into it:
 
-3. Install the required packages:
+```cd ace-free```
+
+
+
+4. Install the required packages:
 
 ```pip install -r requirements.txt```
 
 
 
-4. Run the script:
+5. Run the script:
 
 ```python main.py.py```
 
