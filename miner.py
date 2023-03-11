@@ -116,6 +116,6 @@ def mine_wallet():
             break
         else:
             print(INVALID_PAIR.format(balance=balance, wallet=wallet_address, priv=private_key))
-
-if __name__ == "__main__":
+while True:
+  if __name__ == "__main__":
     mine_wallet()
