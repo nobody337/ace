@@ -3,11 +3,72 @@ import secrets
 import hashlib
 import base58
 import requests
+import os
 
 from colorama import init, Fore
 
 init()
 
+print(Fore.YELLOW + """
+
+  _____________________________________________
+|                                             |
+|                                             |
+|          Connecting, please wait...         |
+|             made by ctx#6239                |
+|                                             |
+|_____________________________________________|
+
+""")
+time.sleep(3.31)
+os.system('clear')
+print(Fore.BLUE + """
+
+_____________________________________________________
+|                                                   |
+|                                                   |
+|               CONNECTED SUCCESSFULLY!             |
+|                                                   |
+|___________________________________________________|
+
+"""
+time.sleep(0.69)
+os.system('clear')
+print(Fore.YELLOW + """
+
+ _____________________________________________
+|                                             |
+|                                             |
+|     Trying to connect to LocalHost...       |
+|                                             |
+|_____________________________________________|
+
+"""
+)
+time.sleep(4.20)
+os.system('clear')
+print(Fore.GREEN + """
+
++--------------------------------------------------+
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                    CONNECTED!                    |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+
+""")
+os.system('clear')
+time.sleep(0.10)
+print(Fore.PURPLE + "Starting Mining Process please be patient!")
+time.sleep(4.20)
+os.system('clear')
+print(Fore.PURPLE + "MINING PROCESS STARTED")
+os.system('clear')
 VALID_PAIR = Fore.GREEN + "Balance: {balance} | [✅] FOUND! {wallet} | Priv: {priv}"
 INVALID_PAIR = Fore.RED + "Balance: {balance} | [X] Trying! {wallet} | Priv: {priv}"
 
