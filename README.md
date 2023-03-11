@@ -12,7 +12,7 @@ A simple Python script for mining Bitcoin wallets.
 
 2. Clone this repo:
 
-`git clone https://github.com/nobody337/jina`
+`git clone https://github.com/nobody337/ace-free`
 
 
 
