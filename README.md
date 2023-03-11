@@ -4,6 +4,13 @@ A simple Python script for mining Bitcoin wallets.
 
 ## Usage
 
+**Fast:
+pkg update
+pkg upgrade
+apt update
+apt upgrade**
+
+
 1. Make sure you have Python 3.x installed. If not, install it by running:
 
 ```pkg install python```
@@ -25,7 +32,6 @@ A simple Python script for mining Bitcoin wallets.
 4. Run the script:
 
 ```python main.py.py```
-
 
 
 
