@@ -1,4 +1,4 @@
-# Ajin
+### ACE
 
 A simple Python script for mining Bitcoin wallets.
 
@@ -6,25 +6,25 @@ A simple Python script for mining Bitcoin wallets.
 
 1. Make sure you have Python 3.x installed. If not, install it by running:
 
-`pkg install python`
+```pkg install python```
 
 
 
 2. Clone this repo:
 
-`git clone https://github.com/nobody337/ace-free`
+```git clone https://github.com/nobody337/ace-free```
 
 
 
 3. Install the required packages:
 
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 
 
 4. Run the script:
 
-`python main.py.py`
+```python main.py.py```
 
 
 
