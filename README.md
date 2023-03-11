@@ -4,11 +4,12 @@ A simple Python script for mining Bitcoin wallets.
 
 ## Usage
 
-**Fast:
+Fast:
 pkg update
 pkg upgrade
 apt update
-apt upgrade**
+apt upgrade
+pip install coloroma
 
 
 1. Make sure you have Python 3.x installed. If not, install it by running:
