@@ -3,6 +3,14 @@ from termcolor import colored
 import threading
 import time
 
+print("""
+ ____  ____   ____     ___    _   _  _____  _____ 
+|  _ \|  _ \ / ___|   / _ \  | \ | || ____||  ___|
+| |_) | |_) |\___ \  | | | | |  \| ||  _|  | |_   
+|  __/|  _ <  ___) | | |_| | | |\  || |___ |  _|  
+|_|   |_| \_\|____/   \___/  |_| \_||_____||_|    
+""")
+
 class BitcoinWalletGenerator:
     def __init__(self):
         self.balance = 0
